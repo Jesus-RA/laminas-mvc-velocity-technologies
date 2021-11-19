@@ -14,7 +14,6 @@
 
 return [
     'db' => [
-        'driver' => 'Pdo_Sqlite',
-        'dsn' => sprintf('sqlite:%s/data/laminastutorial.db', realpath(getcwd())),
+        'driver' => 'Pdo',
     ],
 ];
